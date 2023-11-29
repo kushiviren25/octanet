@@ -1,0 +1,68 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --text:2rems;
+}
+
+body{
+    font-family: 'Ephesis', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero-section{
+    min-height:100vh;
+    background-image:url(gelato.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section{
+    color:black;
+}
+.hero-section li{
+    font-size: xx-large;
+    
+}
+.navbar{
+    text-decoration: wavy;
+    font-size:xx-large;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding:0rem;
+
+}
+
+.navbar ul li{
+    display: inline;
+    margin-left: 3rem;
+    font-size: var(--text);
+    
+}
+li::before {content: "•"; color:white}
+.content{
+    width:100%;
+    min-height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.content{
+    font-size: x-large;
+    color:red;
+}
